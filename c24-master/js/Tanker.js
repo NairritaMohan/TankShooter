@@ -23,8 +23,11 @@ class Tanker {
         Matter.Body.setAngle( tanker.body, angle);
       }
 
-      launcherX = pos.x + ((this.height+100) * cos(angle))
-      launcherY = pos.y - ((this.height-100) * sin(angle))
+      launcherX = pos.x + ((this.height+100) )
+      launcherY = pos.y - ((this.height-100))
+
+      //launcherX = pos.x + ((this.height+100) * cos(angle))
+     // launcherY = pos.y - ((this.height-100) * sin(angle))
 
 
       if(keyIsDown(DOWN_ARROW)){
